@@ -1,0 +1,15 @@
+Class: CS 261 Data Structure
+Name: I-Shen Liao
+
+1. 
+No, the current _dynArrSetCapacity does not have a resizing function, so if we want to resize a smaller capacity, we should add a if(v->size < v->capacity) into removeAtDynArr.
+
+
+2. 
+The removeAtDynArr should be modified because the current dynamic array only can resized to a bigger capacity. So if we want to resize it to a smaller capacity, we should add a if (v->size < v->capacity) into removeAtDynArr.
+
+
+3. 
+(1) The thought process in the programming is hard to understand and modify. The programmer needs to take a lot of time to get used to it.
+
+(2) It is very hard to create and debug a new program because it is hard to modify the encapsulation.
